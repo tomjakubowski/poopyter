@@ -1,0 +1,7 @@
+https://poopyter.localhost {
+  file_server browse {
+    root embuild
+  }
+  header Cross-Origin-Embedder-Policy "require-corp"
+  header Cross-Origin-Opener-Policy "same-origin"
+}
